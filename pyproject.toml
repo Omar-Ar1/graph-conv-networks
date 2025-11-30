@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "Graph Convolutional Network"
+version = "0.1.0"
+description = "Graph Convolutional Networks Project"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [
+    {name = "Omar Arbi"},
+]
+dependencies = [
+    "torch",
+    "torch-geometric",
+    "numpy",
+    "matplotlib",
+    "tqdm",
+    "wandb",
+    "optuna",
+    "scikit-learn",
+    "entmax",
+    "torch-sparse",
+    "scipy",
+    "networkx",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["src*"]
