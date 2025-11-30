@@ -1,3 +1,9 @@
+<p align="center">
+  <img src="https://img.shields.io/badge/python-3.8+-blue.svg" alt="Python 3.8+">
+  <img src="https://img.shields.io/badge/PyTorch-2.0+-ee4c2c.svg" alt="PyTorch">
+  <a href="https://deepwiki.com/Omar-Ar1/graph-conv-networks"><img src="https://deepwiki.com/badge.svg" alt="Ask DeepWiki"></a>
+</p>
+
 # Graph Neural Networks Project
 
 This project implements and experiments with Graph Convolutional Networks (GCN) and Graph Attention Networks (GAT) on various graph datasets, including Cora and Protein-Protein Interaction (PPI). It provides a flexible framework for training, evaluating, and analyzing GNN models.
