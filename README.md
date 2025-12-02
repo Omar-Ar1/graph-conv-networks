@@ -31,7 +31,7 @@ This project implements and experiments with Graph Convolutional Networks (GCN) 
 The GCN model implements spectral graph convolutions based on Chebyshev polynomials.
 *   **Spectral Graph Convolution**: The convolution operation is defined as $g_\theta \star x = \sum_{k=0}^K \theta_k T_k(\tilde{L}) x$, where $\tilde{L}$ is the scaled Laplacian and $T_k$ are Chebyshev polynomials.
 *   **Chebyshev Polynomials**: Defined recursively as $T_k(x) = 2x T_{k-1}(x) - T_{k-2}(x)$ with $T_0(x)=1, T_1(x)=x$.
-*   **Adaptive Chebyshev Order**: Instead of a fixed order $K$, the model learns to weight different orders using an attention mechanism (`entmax`). This allows the network to adaptively select the optimal neighborhood size for feature aggregation at each layer.
+*   **Adaptive Chebyshev Order**: Instead of a fixed order $K$, the model learns to weight different orders using an weighting mechanism (`entmax`). This allows the network to adaptively select the optimal neighborhood size for feature aggregation at each layer.
 
 ### Graph Attention Network (GAT)
 The GAT model uses attention mechanisms to weigh the importance of neighbors.
